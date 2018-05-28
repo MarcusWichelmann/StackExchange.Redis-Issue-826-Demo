@@ -3,7 +3,8 @@
 Demo-Project for reproducing a performance issue with StackExchange.Redis when using it together with ASP.Net Core 2.0
 More information in the bug report: https://github.com/StackExchange/StackExchange.Redis/issues/826
 
-*Test with:*
+**Test with:**
+
 `wrk -t8 -c400 -d60s --latency http://localhost:PORT/api/test/method`
 using "wrk" from https://github.com/wg/wrk
 
