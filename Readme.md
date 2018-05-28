@@ -77,6 +77,7 @@ Application started. Press Ctrl+C to shut down.
 -- StringSet
 -- StringSet
 -- StringSet
+<<<<<<<< It freezed now until I stopped wrk using Ctrl+C >>>>>>>>
 fail: Microsoft.AspNetCore.Server.Kestrel[13]
       Connection id "0HLE4O9VJ15MO", Request id "0HLE4O9VJ15MO:00000001": An unhandled exception was thrown by the application.
 StackExchange.Redis.RedisTimeoutException: Timeout performing SET testkey:d6c59939-414c-4c08-95a9-f01f85a65439, inst: 13, queue: 13, qu: 0, qs: 13, qc: 0, wr: 0, wq: 0, in: 50, ar: 0, clientName: MARCUS-PC, serverEndpoint: 10.200.1.100:6379, keyHashSlot: 4332 (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
